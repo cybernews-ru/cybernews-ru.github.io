@@ -76,13 +76,14 @@
     }
 
     .header-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  position: relative; /* Важно: чтобы mobile-menu позиционировался от этого блока */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
     .logo {
       color: #fff;
@@ -127,19 +128,20 @@
 
     /* Мобильное меню */
     .mobile-menu {
-      display: none;
-      flex-direction: column;
-      gap: 20px;
-      padding: 20px;
-      background: var(--bg-color);
-      border-bottom: 1px solid rgba(255,255,255,0.05);
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-      z-index: 999;
-    }
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background: var(--bg-color);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  position: absolute;
+  top: 100%;            /* Сразу под header-inner */
+  left: 0;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  z-index: 999;
+  animation: fadeIn 0.3s ease-out;
+}
 
     .mobile-menu a {
       color: var(--text-color);
@@ -154,8 +156,8 @@
     }
 
     .mobile-menu.open {
-      display: flex;
-    }
+  display: flex;
+}
 
     /* Хлебные крошки */
     .breadcrumbs {
@@ -329,7 +331,7 @@
 </head>
 <body>
 
-  <header class="header">
+<header class="header">
     <div class="header-inner">
       <a href="../index.html" class="logo">CY<span>BER</span></a>
       <nav class="nav">
@@ -347,6 +349,18 @@
         <span class="burger-line"></span>
         <span class="burger-line"></span>
       </button>
+
+      <!-- Перемещено ВНУТРЬ header-inner -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="../index.html">Все</a>
+        <a href="../smartfony.html">Смартфоны</a>
+        <a href="../pcgames.html">ПК Игры</a>
+        <a href="../zhelezo.html">Железо</a>
+        <a href="../gadzhety.html">Гаджеты</a>
+        <a href="../soft.html">Софт</a>
+        <a href="../tehnologii.html">Технологии</a>
+        <a href="../sluhi.html">Слухи</a>
+      </div>
     </div>
   </header>
 
