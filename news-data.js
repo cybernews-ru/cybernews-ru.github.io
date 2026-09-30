@@ -5,6 +5,12 @@
 
 const news = [
   {
+  cat:'ПК Игры', 
+  title:'Silent Hill: Townfall упростит стелс с монстром Бремя', 
+  excerpt:'Разработчики готовят патч после вала жалоб на непредсказуемый ИИ монстра',
+  img:'img/fXKJecGB4611uJP7LLTS2w.png.webp',
+  date:'30 сен 2026', link:'news/splinter-cell.html'},
+  {
   cat:'Гаджеты', 
   title:'Galaxy Tab S12: самые тонкие планшеты Samsung с MediaTek Dimensity 9500', 
   excerpt:'Samsung представила Galaxy Tab S12 Ultra и S12+: толщина от 5,1 мм, экраны Dynamic AMOLED 2X, процессор Dimensity 9500, S Pen в комплекте и батареей до 23 часов.', 
