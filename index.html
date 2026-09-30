@@ -52,7 +52,7 @@
     <div class="header-inner">
       <a href="https://cybernews-ru.github.io/" class="logo">CY<span>BER</span></a>
       <nav class="nav" id="desktopNav">
-        <a class="active" data-cat="all">Все</a>
+        <a href="index.html" class="active" data-cat="all">Все</a>
         <a href="smartfony.html" data-cat="Смартфоны">Смартфоны</a>
         <a href="pcgames.html" data-cat="ПК Игры">ПК Игры</a>
         <a href="zhelezo.html" data-cat="Железо">Железо</a>
@@ -135,7 +135,7 @@
 
         let sideHtml = '';
         sideCards.forEach(n => {
-          const img = heroSideImgs[n.cat] || n.img;
+          const img = n.img;
           sideHtml += `
             <a class="hero-side-card" href="${n.link}">
               <span class="badge">${n.cat}</span>
@@ -162,12 +162,20 @@
       function renderGrid(cat, query) {
         currentCat = cat;
         let filtered = getNewsByCat(cat);
+
         if (query) {
           const q = query.toLowerCase();
           filtered = filtered.filter(n =>
             n.title.toLowerCase().includes(q) || n.excerpt.toLowerCase().includes(q)
           );
         }
+
+        // === ГЛАВНОЕ ИЗМЕНЕНИЕ ===
+        // Если мы на главной (cat === 'all'), показываем только топ-10
+        if (cat === 'all') {
+          filtered = filtered.slice(0, 10);
+        }
+        // =========================
 
         grid.innerHTML = '';
         if (filtered.length === 0) {
@@ -213,14 +221,11 @@
       });
 
       // ===== НАВИГАЦИЯ (категории через href) =====
-      // На главной фильтрация остаётся через JS для быстрого переключения
       document.querySelectorAll('.nav a, .mobile-menu a').forEach(a => {
         a.addEventListener('click', (e) => {
-          // Если есть href и это не "Все" — переходим на страницу категории
           if (a.hasAttribute('href') && a.dataset.cat !== 'all' && a.dataset.cat !== currentCat) {
-            return; // пусть ссылка сработает нормально
+            return;
           }
-          // "Все" — фильтруем на месте
           if (a.dataset.cat === 'all') {
             e.preventDefault();
             renderGrid('all');
