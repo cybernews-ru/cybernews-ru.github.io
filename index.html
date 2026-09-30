@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber — новости технологий, смартфонов, ПК и гаджетов</title>
+  <meta name="description" content="Cyber — современный новостной портал о технологиях. Смартфоны, ПК, железо, гаджеты, софт, технологии и слухи. Актуальные обзоры и новости мира технологий.">
+  <meta name="keywords" content="технологии, смартфоны, ПК, железо, гаджеты, софт, новости технологий, Cyber, обзоры, слухи">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://cyber-news.example/">
+  <link rel="alternate" type="application/rss+xml" title="Cyber — RSS" href="https://cyber-news.example/rss.xml">
+  <meta property="og:title" content="Cyber — новости технологий">
+  <meta property="og:description" content="Современный новостной портал о технологиях: смартфоны, ПК, железо, гаджеты, софт и слухи.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cyber-news.example/">
+  <meta property="og:image" content="https://cyber-news.example/img/og-cover.jpg">
+  <meta property="og:site_name" content="Cyber">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cyber — новости технологий">
+  <meta name="twitter:description" content="Современный новостной портал о технологиях: смартфоны, ПК, железо, гаджеты, софт и слухи.">
+  <meta name="twitter:image" content="https://cyber-news.example/img/og-cover.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Cyber",
+    "url": "https://cyber-news.example/",
+    "description": "Современный новостной портал о технологиях",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://cyber-news.example/search?q={query}",
+      "query-input": "required name=query"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Cyber",
+    "url": "https://cyber-news.example/",
+    "logo": "https://cyber-news.example/img/logo.png"
+  }
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">CY<span>BER</span></a>
+      <nav class="nav" id="desktopNav">
+        <a class="active" data-cat="all">Все</a>
+        <a href="smartfony.html" data-cat="Смартфоны">Смартфоны</a>
+        <a href="pc.html" data-cat="ПК">ПК</a>
+        <a href="zhelezo.html" data-cat="Железо">Железо</a>
+        <a href="gadzhety.html" data-cat="Гаджеты">Гаджеты</a>
+        <a href="soft.html" data-cat="Софт">Софт</a>
+        <a href="tehnologii.html" data-cat="Технологии">Технологии</a>
+        <a href="sluhi.html" data-cat="Слухи">Слухи</a>
+      </nav>
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-input" placeholder="Поиск..." id="searchInput">
+      </div>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a class="active" data-cat="all" href="index.html">Все</a>
+    <a href="smartfony.html" data-cat="Смартфоны">Смартфоны</a>
+    <a href="pc.html" data-cat="ПК">ПК</a>
+    <a href="zhelezo.html" data-cat="Железо">Железо</a>
+    <a href="gadzhety.html" data-cat="Гаджеты">Гаджеты</a>
+    <a href="soft.html" data-cat="Софт">Софт</a>
+    <a href="tehnologii.html" data-cat="Технологии">Технологии</a>
+    <a href="sluhi.html" data-cat="Слухи">Слухи</a>
+    <div class="mobile-search">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" placeholder="Поиск новостей..." id="mobileSearchInput">
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="heroSection"></section>
+
+  <!-- NEWS GRID -->
+  <section class="section">
+    <h1 class="section-title" id="gridTitle">Все новости</h1>
+    <div class="grid" id="newsGrid"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="smartfony.html">Смартфоны</a>
+      <a href="pc.html">ПК</a>
+      <a href="zhelezo.html">Железо</a>
+      <a href="gadzhety.html">Гаджеты</a>
+      <a href="soft.html">Софт</a>
+      <a href="tehnologii.html">Технологии</a>
+      <a href="sluhi.html">Слухи</a>
+    </div>
+    <p>Cyber &copy; 2026 — новости технологий. Все права защищены.</p>
+  </footer>
+
+  <script src="news-data.js"></script>
+  <script>
+    // ===== ГЛАВНАЯ СТРАНИЦА — ЛОГИКА =====
+    document.addEventListener('DOMContentLoaded', () => {
+      const heroSection = document.getElementById('heroSection');
+      const grid = document.getElementById('newsGrid');
+      const gridTitle = document.getElementById('gridTitle');
+      const burger = document.getElementById('burger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      let currentCat = 'all';
+
+      // Картинки для hero-боковых
+      const heroSideImgs = {
+        'Смартфоны': 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=280&fit=crop',
+        'Гаджеты': 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=280&fit=crop',
+        'Софт': 'https://images.unsplash.com/photo-1633409361618-c73427e4e206?w=400&h=280&fit=crop',
+      };
+
+      // ===== РЕНДЕР HERO =====
+      function renderHero() {
+        const sorted = sortByDate(news);
+        const main = sorted[0];
+        const sideCats = ['Смартфоны', 'Гаджеты', 'Софт'];
+        const sideCards = sideCats
+          .map(c => sorted.find(n => n.cat === c))
+          .filter(Boolean)
+          .slice(0, 3);
+
+        let sideHtml = '';
+        sideCards.forEach(n => {
+          const img = heroSideImgs[n.cat] || n.img;
+          sideHtml += `
+            <a class="hero-side-card" href="${n.link}">
+              <span class="badge">${n.cat}</span>
+              <img src="${img}" alt="${n.title}">
+              <div class="overlay"></div>
+              <div class="text"><h3>${n.title}</h3></div>
+            </a>`;
+        });
+
+        heroSection.innerHTML = `
+          <a class="hero-main" href="${main.link}">
+            <span class="hero-badge">${main.cat}</span>
+            <img src="${main.img}" alt="${main.title}">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+              <h2>${main.title}</h2>
+              <p>${main.excerpt}</p>
+            </div>
+          </a>
+          <div class="hero-side">${sideHtml}</div>`;
+      }
+
+      // ===== РЕНДЕР СЕТКИ =====
+      function renderGrid(cat, query) {
+        currentCat = cat;
+        let filtered = getNewsByCat(cat);
+        if (query) {
+          const q = query.toLowerCase();
+          filtered = filtered.filter(n =>
+            n.title.toLowerCase().includes(q) || n.excerpt.toLowerCase().includes(q)
+          );
+        }
+
+        grid.innerHTML = '';
+        if (filtered.length === 0) {
+          grid.innerHTML = '<div class="empty-state"><p>Новостей пока нет, но они скоро появятся.</p></div>';
+          return;
+        }
+
+        filtered.forEach((n, i) => {
+          const card = document.createElement('a');
+          card.className = 'card';
+          card.href = n.link;
+          card.style.animationDelay = (i * 0.06) + 's';
+          card.innerHTML = `
+            <div class="card-img">
+              <span class="card-badge">${n.cat}</span>
+              <img src="${n.img}" alt="${n.title}" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3>${n.title}</h3>
+              <p>${n.excerpt}</p>
+              <div class="card-meta"><span>${n.date}</span></div>
+            </div>`;
+          grid.appendChild(card);
+        });
+
+        gridTitle.textContent = cat && cat !== 'all' ? cat : 'Все новости';
+      }
+
+      renderHero();
+      renderGrid('all');
+
+      // ===== БУРГЕР =====
+      function closeMobileMenu() {
+        burger.classList.remove('open');
+        mobileMenu.classList.remove('open');
+      }
+      burger.addEventListener('click', () => {
+        if (burger.classList.contains('open')) closeMobileMenu();
+        else { burger.classList.add('open'); mobileMenu.classList.add('open'); }
+      });
+      document.addEventListener('click', (e) => {
+        if (!burger.contains(e.target) && !mobileMenu.contains(e.target)) closeMobileMenu();
+      });
+
+      // ===== НАВИГАЦИЯ (категории через href) =====
+      // На главной фильтрация остаётся через JS для быстрого переключения
+      document.querySelectorAll('.nav a, .mobile-menu a').forEach(a => {
+        a.addEventListener('click', (e) => {
+          // Если есть href и это не "Все" — переходим на страницу категории
+          if (a.hasAttribute('href') && a.dataset.cat !== 'all' && a.dataset.cat !== currentCat) {
+            return; // пусть ссылка сработает нормально
+          }
+          // "Все" — фильтруем на месте
+          if (a.dataset.cat === 'all') {
+            e.preventDefault();
+            renderGrid('all');
+            document.querySelectorAll('.nav a, .mobile-menu a').forEach(x => x.classList.remove('active'));
+            a.classList.add('active');
+            closeMobileMenu();
+            window.scrollTo({ top: document.querySelector('.section').offsetTop - 80, behavior: 'smooth' });
+          }
+        });
+      });
+
+      // ===== ПОИСК =====
+      const searchInput = document.getElementById('searchInput');
+      const mobileSearchInput = document.getElementById('mobileSearchInput');
+      searchInput.addEventListener('input', () => renderGrid(currentCat, searchInput.value));
+      mobileSearchInput.addEventListener('input', () => renderGrid(currentCat, mobileSearchInput.value));
+    });
+  </script>
+</body>
+</html>
