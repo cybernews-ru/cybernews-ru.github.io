@@ -5,6 +5,13 @@
 
 const news = [
   {
+  cat:'Технологии', 
+  title:'200 ГБ ОЗУ на одного робота: память не подешевеет', 
+  excerpt:'Micron: гуманоиды и автономный транспорт поднимут спрос на DRAM и NAND, дефицит усилится в 2027–2028',
+  img:'img/AQAKonYzQaDJJ67XXq8zllGYNraOtlT3VSq8UrIXirIoFVZlynVp-oJiZ4i11mwNE8LPNPxy3rpjkO6F_8E_vOj6bTg.webp',
+  date:'01 окт 2026', link:'news/operativnaya-pamyat-ne-podesheveet.html'
+  },
+  {
   cat:'Железо', 
   title:'Новая уязвимость Spectre v2: угроза утечек в Intel, AMD и Arm', 
   excerpt:'Атака BTR: утечка паролей через JIT-компиляторы, защита есть, но не везде',
