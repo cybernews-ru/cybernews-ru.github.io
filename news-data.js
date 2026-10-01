@@ -8,7 +8,7 @@ const news = [
   cat:'Софт', 
   title:'NVIDIA закрыла уязвимости в GeForce GTX 700–1000 драйвером 582.78', 
   excerpt:'Security Update Driver для Maxwell, Pascal и Volta на Windows 10 и 11 — только безопасность, без оптимизаций',
-  img:'img/8_6_5BZX_nEPMJRGe5Zl5w.jpeg.webp',
+  img:'img/Y7GBKCo56tNp-L-KTpljvg.jpeg.webp',
   date:'01 окт 2026', 
   link:'news/noviy-drayver-na-videokartu-nvidia.html'
   },
