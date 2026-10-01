@@ -8,13 +8,13 @@ const news = [
   cat:'ПК Игры', 
   title:'GTA 6 не получит Disney World и SeaWorld', 
   excerpt:'Rockstar решила, что не всё из Флориды влезет в игру. Зато обещает настоящий флоридский дух.',
-  img:'img/fXKJecGB4611uJP7LLTS2w.png.webp',
+  img:'img/IMG_20261001_053413.jpg',
   date:'01 окт 2026', link:'news/gta6-vo-floride.html'},
   {
   cat:'ПК Игры', 
   title:'Silent Hill: Townfall упростит стелс с монстром Бремя', 
   excerpt:'Разработчики готовят патч после вала жалоб на непредсказуемый ИИ монстра',
-  img:'img/fXKJecGB4611uJP7LLTS2w.png.webp',
+  img:'img/IMG_20261001_053413.jpg',
   date:'30 сен 2026', link:'news/splinter-cell.html'},
 ];
 
