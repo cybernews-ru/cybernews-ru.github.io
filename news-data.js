@@ -6,6 +6,13 @@
 const news = [
   {
   cat:'Гаджеты', 
+  title:'Dragonfly A9 Ultimate+: мышь с магнитной зарядкой', 
+  excerpt:'Беспроводная игровая мышь ATK: сенсор PixArt, задержка 0,181 мс, цена со скидкой 69,98 доллара',
+  img:'img/image-244.png',
+  date:'01 окт 2026', link:'news/mish-s-dok-stanciey.html'
+  },
+  {
+  cat:'Гаджеты', 
   title:'Shure MV6 Gen 2: микрофон, который сам всё настроит', 
   excerpt:'USB‑микрофон для стримов и игр: ручная настройка, Voice Isolation, цена от 169 долларов',
   img:'img/IMG_20261001_065310.jpg',
