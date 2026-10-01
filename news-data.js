@@ -5,6 +5,13 @@
 
 const news = [
   {
+  cat:'ПК Игры', 
+  title:'The Witcher 3 Remastered: CDPR чинит HairWorks и DLSS', 
+  excerpt:'Проблемы с производительностью в ПК-версии и Xbox Play Anywhere: хотфиксы уже в работе',
+  img:'img/R_3zBW8V6I6w_ieHSzX_hQ.png.webp',
+  date:'01 окт 2026', link:'news/the-witcher3.html.html'
+  },
+  {
   cat:'Гаджеты', 
   title:'Dragonfly A9 Ultimate+: мышь с магнитной зарядкой', 
   excerpt:'Беспроводная игровая мышь ATK: сенсор PixArt, задержка 0,181 мс, цена со скидкой 69,98 доллара',
