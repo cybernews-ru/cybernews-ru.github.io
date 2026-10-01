@@ -5,17 +5,26 @@
 
 const news = [
   {
+  cat:'Гаджеты', 
+  title:'Shure MV6 Gen 2: микрофон, который сам всё настроит', 
+  excerpt:'USB‑микрофон для стримов и игр: ручная настройка, Voice Isolation, цена от 169 долларов',
+  img:'img/IMG_20261001_065310.jpg',
+  date:'01 окт 2026', link:'news/noviy-mikrofon-dla-strimerov.html'
+  },
+  {
   cat:'ПК Игры', 
   title:'GTA 6 не получит Disney World и SeaWorld', 
   excerpt:'Rockstar решила, что не всё из Флориды влезет в игру. Зато обещает настоящий флоридский дух.',
   img:'img/IMG_20261001_053413.jpg',
-  date:'01 окт 2026', link:'news/gta6-vo-floride.html'},
+  date:'01 окт 2026', link:'news/gta6-vo-floride.html'
+  },
   {
   cat:'ПК Игры', 
   title:'Silent Hill: Townfall упростит стелс с монстром Бремя', 
   excerpt:'Разработчики готовят патч после вала жалоб на непредсказуемый ИИ монстра',
   img:'img/fXKJecGB4611uJP7LLTS2w.png.webp',
-  date:'30 сен 2026', link:'news/splinter-cell.html'},
+  date:'30 сен 2026', link:'news/splinter-cell.html'
+  },
 ];
 
 // ===== Утилиты =====
