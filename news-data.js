@@ -6,6 +6,13 @@
 const news = [
   {
   cat:'Железо', 
+  title:'Новая уязвимость Spectre v2: угроза утечек в Intel, AMD и Arm', 
+  excerpt:'Атака BTR: утечка паролей через JIT-компиляторы, защита есть, но не везде',
+  img:'img/code_2.webp',
+  date:'01 окт 2026', link:'news/naydeni-uyazvimosti-v-processorah-amd-i-arm.html'
+  },
+  {
+  cat:'Железо', 
   title:'Розыгрыш RTX 5080 в стиле CONTROL Resonant', 
   excerpt:'Кастомная GeForce RTX 5080 от NVIDIA: оформление в духе Remedy, стоимость около 1600 долларов',
   img:'img/IMG_20261001_091052.jpg',
