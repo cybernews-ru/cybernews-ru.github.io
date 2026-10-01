@@ -5,6 +5,13 @@
 
 const news = [
   {
+  cat:'Слухи', 
+  title:'HONOR готовит смартфоны с экраном сзади и батареей на 12 000 мАч', 
+  excerpt:'HONOR 700 Pro, серия X и два широкоформатных смартфона: утечки от Digital Chat Station',
+  img:'img/fit_930_519_false_crop_1200_675_0_62_q90_1298792_c5fb427c4160dc7b369a3c954.webp',
+  date:'01 окт 2026', link:'news/neobichnie-smartfoni-honor.html'
+  },
+  {
   cat:'Технологии', 
   title:'200 ГБ ОЗУ на одного робота: память не подешевеет', 
   excerpt:'Micron: гуманоиды и автономный транспорт поднимут спрос на DRAM и NAND, дефицит усилится в 2027–2028',
