@@ -6,6 +6,14 @@
 const news = [
   {
   cat:'Софт', 
+  title:'Хакеры спрятали троян в кастомном ChatGPT и обманули через Google Sites', 
+  excerpt:'Фейковый ChatGPT Plus 5.6 заманивал на поддельный сайт, где жертва сама запускала троян удалённого доступа',
+  img:'img/chatgpt.webp',
+  date:'01 окт 2026', 
+  link:'news/poddelniy-chat-gpt.html'
+  },
+  {
+  cat:'Софт', 
   title:'NVIDIA закрыла уязвимости в GeForce GTX 700–1000 драйвером 582.78', 
   excerpt:'Security Update Driver для Maxwell, Pascal и Volta на Windows 10 и 11 — только безопасность, без оптимизаций',
   img:'img/Y7GBKCo56tNp-L-KTpljvg.jpeg.webp',
