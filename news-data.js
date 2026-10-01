@@ -5,6 +5,14 @@
 
 const news = [
   {
+  cat:'ПК Игры', 
+  title:'Krafton закрыла PUBG: Black Budget: extraction-шутер не выжил', 
+  excerpt:'Студия не нашла направление для шутера, проект сворачивают после альфа-тестов',
+  img:'img/8_6_5BZX_nEPMJRGe5Zl5w.jpeg.webp',
+  date:'01 окт 2026', 
+  link:'news/pubg-ostanovili-razrabotku.html'
+  },
+  {
   cat:'Слухи', 
   title:'HONOR готовит смартфоны с экраном сзади и батареей на 12 000 мАч', 
   excerpt:'HONOR 700 Pro, серия X и два широкоформатных смартфона: утечки от Digital Chat Station',
