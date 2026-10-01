@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- УБРАЛИ ссылку на style.css, чтобы избежать конфликтов путей на GitHub Pages -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
+
+  <title>Shure MV6 Gen 2: микрофон, который сам всё настроит</title>
+  <meta name="description" content="USB‑микрофон для стримов и игр: ручная настройка, Voice Isolation, цена от 169 долларов">
+  <meta name="keywords" content="микрофон для стримов, игровой микрофон">
+  <link rel="canonical" href="https://cybernews-ru.github.io/news/noviy-mikrofon-dla-strimerov.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Shure MV6 Gen 2: микрофон, который сам всё настроит">
+  <meta property="og:description" content="USB‑микрофон для стримов и игр: ручная настройка, Voice Isolation, цена от 169 долларов">
+  <meta property="og:url" content="https://cybernews-ru.github.io/news/noviy-mikrofon-dla-strimerov.html">
+  <!-- ИСПРАВЛЕНО: Абсолютный путь к картинке -->
+  <meta property="og:image" content="https://cybernews-ru.github.io/img/IMG_20261001_065310.jpg">
+  <meta property="article:published_time" content="2026-10-01T07:00:15+03:00">
+  <meta property="article:author" content="Cyber">
+  <meta property="article:section" content="Гаджеты">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Shure MV6 Gen 2: микрофон, который сам всё настроит",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cybernews-ru.github.io/img/IMG_20261001_065310.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "datePublished": "2026-10-01T07:00:15+03:00",
+      "author": {"@type": "Person", "name": "Cyber"},
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cyber",
+        "logo": {"@type": "ImageObject", "url": "https://cybernews-ru.github.io/img/logo.png"}
+      },
+      "description": "USB‑микрофон для стримов и игр: ручная настройка, Voice Isolation, цена от 169 долларов"
+    }
+  </script>
+
+  <!-- ================= КРИТИЧЕСКИЕ СТИЛИ (ВНУТРЕННИЕ) ================= -->
+  <style>
+    /* Базовые настройки страницы (чтобы не было белого фона) */
+    :root {
+      --bg-color: #0f0f11;
+      --text-color: #e8e8ec;
+      --text-dim: #8a8a92;
+      --accent: #2d7eff;
+      --header-bg: rgba(15, 15, 17, 0.95);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Стили для шапки (Header) */
+    .header {
+      background-color: var(--header-bg);
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .header-inner {
+  position: relative; /* Важно: чтобы mobile-menu позиционировался от этого блока */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+    .logo {
+      color: #fff;
+      font-weight: 900;
+      font-size: 24px;
+      text-decoration: none;
+      letter-spacing: -1px;
+    }
+
+    .logo span {
+      color: var(--accent);
+    }
+
+    .nav a {
+      color: var(--text-dim);
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav a:hover {
+      color: #fff;
+    }
+
+    .burger {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+    }
+
+    .burger-line {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: #fff;
+      margin: 4px 0;
+    }
+
+    /* Мобильное меню */
+    .mobile-menu {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background: var(--bg-color);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  position: absolute;
+  top: 100%;            /* Сразу под header-inner */
+  left: 0;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  z-index: 999;
+  animation: fadeIn 0.3s ease-out;
+}
+
+    .mobile-menu a {
+      color: var(--text-color);
+      text-decoration: none;
+      font-size: 18px;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .mobile-menu a:hover {
+      color: var(--accent);
+    }
+
+    .mobile-menu.open {
+  display: flex;
+}
+
+    /* Хлебные крошки */
+    .breadcrumbs {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px 20px 0;
+      color: var(--text-dim);
+      font-size: 13px;
+    }
+
+    .breadcrumbs a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* Контейнер статьи */
+    .article-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .article-badge {
+      background: rgba(45, 126, 255, 0.9);
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 12px;
+      display: inline-block;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .article-title {
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 1.1;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+
+    .article-subtitle {
+      font-weight: 400;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 32px;
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      color: var(--text-dim);
+      font-size: 14px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .article-image {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      margin-bottom: 40px;
+      object-fit: cover;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      display: block;
+    }
+
+    .article-body p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--text-color);
+      margin-bottom: 24px;
+    }
+
+    .article-body h2 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #fff;
+      margin: 48px 0 24px;
+      border-left: 4px solid var(--accent);
+      padding-left: 16px;
+    }
+
+    .article-body blockquote {
+      border-left: 4px solid var(--accent);
+      padding: 20px 24px;
+      margin: 32px 0;
+      background: rgba(45, 126, 255, 0.06);
+      border-radius: 0 12px 12px 0;
+      font-style: italic;
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 16px;
+    }
+
+    .share-buttons {
+      margin: 40px 0;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .share-btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .share-btn:hover {
+      opacity: 0.9;
+      transform: translateY(-2px);
+    }
+
+    .share-vk { background: #0077FF; }
+    .share-telegram { background: #2481cc; }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      color: var(--text-dim);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover {
+      color: #fff;
+    }
+
+    /* Footer */
+    .footer {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px 30px;
+      color: var(--text-dim);
+      font-size: 14px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      text-align: center;
+    }
+
+    .footer-links {
+      margin-bottom: 20px;
+    }
+
+    .footer-links a {
+      color: var(--text-dim);
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    /* Адаптив */
+    @media (max-width: 768px) {
+      .nav { display: none; }
+      .burger { display: block; }
+      .article-title { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="header-inner">
+      <a href="../index.html" class="logo">CY<span>BER</span></a>
+      <nav class="nav">
+        <a href="../index.html">Все</a>
+        <a href="../smartfony.html">Смартфоны</a>
+        <a href="../pcgames.html">ПК Игры</a>
+        <a href="../zhelezo.html">Железо</a>
+        <a href="../gadzhety.html">Гаджеты</a>
+        <a href="../soft.html">Софт</a>
+        <a href="../tehnologii.html">Технологии</a>
+        <a href="../sluhi.html">Слухи</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+
+      <!-- Перемещено ВНУТРЬ header-inner -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="../index.html">Все</a>
+        <a href="../smartfony.html">Смартфоны</a>
+        <a href="../pcgames.html">ПК Игры</a>
+        <a href="../zhelezo.html">Железо</a>
+        <a href="../gadzhety.html">Гаджеты</a>
+        <a href="../soft.html">Софт</a>
+        <a href="../tehnologii.html">Технологии</a>
+        <a href="../sluhi.html">Слухи</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="../index.html">Все</a>
+    <a href="../smartfony.html">Смартфоны</a>
+    <a href="../pcgames.html">ПК Игры</a>
+    <a href="../zhelezo.html">Железо</a>
+    <a href="../gadzhety.html">Гаджеты</a>
+    <a href="../soft.html">Софт</a>
+    <a href="../tehnologii.html">Технологии</a>
+    <a href="../sluhi.html">Слухи</a>
+  </div>
+
+  <section class="section">
+    <!-- Хлебные крошки -->
+    <div class="breadcrumbs">
+      <a href="../index.html">Главная</a> / 
+      <a href="../pcgames.html">ПК Игры</a> / 
+      <span style="color:#fff;">Silent Hill: Townfall</span>
+    </div>
+
+    <article class="article-container">
+      <span class="article-badge">ПК Игры</span>
+      <h1 class="article-title">Shure MV6 Gen 2: микрофон, который сам всё настроит</h1>
+      <p class="article-subtitle">USB‑микрофон для стримов и игр: ручная настройка, Voice Isolation, цена от 169 долларов</p>
+
+      <div class="meta-row">
+        <span>📅 30 сентября 2026</span>
+        <span>👤 Дмитрий Мусиенко</span>
+      </div>
+
+      <!-- ИСПРАВЛЕНО: Абсолютный путь к картинке -->
+      <img src="https://cybernews-ru.github.io/img/IMG_20261001_065310.jpg" 
+           alt="Микрофон для стримов" 
+           class="article-image">
+
+      <div class="article-body">
+
+        <p>Ты вечно мучаешься с фоном: то вентилятор гудит, то сосед стучит, то сам вдруг кричишь в микрофон — и всё портит. У Shure теперь есть ответ: MV6 Gen 2. Это как взять звукорежиссёра и засунуть его в компактный корпус — и он сам сгладит перепады громкости, уберёт шум и подстроится под тебя.</p>
+        
+        <p>Главное тут — больше контроля без лишних нервов. Есть регулируемый Auto Level: он выравнивает звук, если ты шепчешь или орёшь — будто кто-то тихо подкручивает ручку. Система шумоподавления теперь тоже настраивается: можно чуть-чуть приглушить клавиатуру или почти вырезать соседей. Сверху — пятиполосный эквалайзер, а под ним готовые режимы Dark, Natural и Bright: хочешь — бери готовый, хочешь — докрути сам.</p>
+        
+        <figure class="article-image">
+  <img src="../img/IMG_20261001_065327.jpg" alt="Микрофон для стримов и игр">
+  <figcaption>Микрофон для стримов Shure MV6 Gen 2</figcaption>
+</figure>
+
+        <p>Ещё добавили виртуальный поп‑фильтр, три пресета (речь, пение, инструменты) и кнопку Mute с цветным индикатором — чтобы ты сразу видел, когда тебя слышно. Работает с ПК, Mac и Android по USB‑C, для iPhone и iPad есть сертификация MFi. Настройки живут в приложении MOTIV и сохраняются прямо в микрофоне — переносишь между устройствами, а звук остаётся прежним. В комплекте подставка с изоляцией, кабель на два метра и резьба 5/8 дюйма — можно снять и поставить на стойку. Разъём 3,5 мм даёт слышать себя и игру без задержки.</p>
+
+        <p>Цена — 169 долларов (это больше 14 000 рублей), ещё бывает за 159 фунтов или 150 евро. Уже в продаже на сайте Shure и у ритейлеров.</p>
+        
+        <i>Кстати, теперь есть и белая версия — раньше её не было.</i>
+        
+        
+      </div>
+
+      <div class="share-buttons">
+        <a href="https://vk.ru/cyber_news_byte" class="share-btn share-vk" target="_blank">ВКонтакте</a>
+      </div>
+
+      <a href="../gadzhety.html" class="back-link">← НАЗАД К КАТЕГОРИИ</a>
+    </article>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="../index.html">Главная</a>
+      <a href="../contacts.html">Контакты</a>
+    </div>
+    <p>&copy; 2026 Cyber News. Все права защищены.</p>
+  </footer>
+
+  <script>
+    const burger = document.getElementById('burger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    if (burger && mobileMenu) {
+      burger.addEventListener('click', () => {
+        burger.classList.toggle('open');
+        mobileMenu.classList.toggle('open');
+      });
+    }
+  </script>
+</body>
+</html>
