@@ -5,6 +5,14 @@
 
 const news = [
   {
+  cat:'Смартфоны', 
+  title:'Honor Magic 9 Lite+: 11 000 мАч, Snapdragon 6 Gen 5 и 108 Мп', 
+  excerpt:'Глобальная версия Honor с батареей на 11 000 мАч, зарядкой 80 Вт и Android 16 засветилась в Google Play Console',
+  img:'img/media-b4efae1ca8c3863df54837d208fbcdee735e7f163f95c88b56be9165628e4323.jpg',
+  date:'01 окт 2026', 
+  link:'news/honor-gotovit-noviy-smartfon.html'
+  },
+  {
   cat:'Софт', 
   title:'Хакеры спрятали троян в кастомном ChatGPT и обманули через Google Sites', 
   excerpt:'Фейковый ChatGPT Plus 5.6 заманивал на поддельный сайт, где жертва сама запускала троян удалённого доступа',
