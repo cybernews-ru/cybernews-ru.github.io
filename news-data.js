@@ -14,7 +14,7 @@ const news = [
   cat:'ПК Игры', 
   title:'Silent Hill: Townfall упростит стелс с монстром Бремя', 
   excerpt:'Разработчики готовят патч после вала жалоб на непредсказуемый ИИ монстра',
-  img:'img/IMG_20261001_053413.jpg',
+  img:'img/fXKJecGB4611uJP7LLTS2w.png.webp',
   date:'30 сен 2026', link:'news/splinter-cell.html'},
 ];
 
