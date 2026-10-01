@@ -4,20 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- УБРАЛИ ссылку на style.css, чтобы избежать конфликтов путей на GitHub Pages -->
-  <!-- <link rel="stylesheet" href="style.css"> -->
-
   <title>Shure MV6 Gen 2: микрофон, который сам всё настроит</title>
   <meta name="description" content="USB‑микрофон для стримов и игр: ручная настройка, Voice Isolation, цена от 169 долларов">
   <meta name="keywords" content="микрофон для стримов, игровой микрофон">
   <link rel="canonical" href="https://cybernews-ru.github.io/news/noviy-mikrofon-dla-strimerov.html">
 
-  <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:title" content="Shure MV6 Gen 2: микрофон, который сам всё настроит">
   <meta property="og:description" content="USB‑микрофон для стримов и игр: ручная настройка, Voice Isolation, цена от 169 долларов">
   <meta property="og:url" content="https://cybernews-ru.github.io/news/noviy-mikrofon-dla-strimerov.html">
-  <!-- ИСПРАВЛЕНО: Абсолютный путь к картинке -->
   <meta property="og:image" content="https://cybernews-ru.github.io/img/IMG_20261001_065310.jpg">
   <meta property="article:published_time" content="2026-10-01T07:00:15+03:00">
   <meta property="article:author" content="Cyber">
@@ -45,9 +40,7 @@
     }
   </script>
 
-  <!-- ================= КРИТИЧЕСКИЕ СТИЛИ (ВНУТРЕННИЕ) ================= -->
   <style>
-    /* Базовые настройки страницы (чтобы не было белого фона) */
     :root {
       --bg-color: #0f0f11;
       --text-color: #e8e8ec;
@@ -65,7 +58,6 @@
       line-height: 1.6;
     }
 
-    /* Стили для шапки (Header) */
     .header {
       background-color: var(--header-bg);
       padding: 16px 0;
@@ -76,14 +68,14 @@
     }
 
     .header-inner {
-  position: relative; /* Важно: чтобы mobile-menu позиционировался от этого блока */
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
     .logo {
       color: #fff;
@@ -126,22 +118,20 @@
       margin: 4px 0;
     }
 
-    /* Мобильное меню */
     .mobile-menu {
-  display: none;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-  background: var(--bg-color);
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-  position: absolute;
-  top: 100%;            /* Сразу под header-inner */
-  left: 0;
-  width: 100%;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  z-index: 999;
-  animation: fadeIn 0.3s ease-out;
-}
+      display: none;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      background: var(--bg-color);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      z-index: 999;
+    }
 
     .mobile-menu a {
       color: var(--text-color);
@@ -156,10 +146,9 @@
     }
 
     .mobile-menu.open {
-  display: flex;
-}
+      display: flex;
+    }
 
-    /* Хлебные крошки */
     .breadcrumbs {
       max-width: 800px;
       margin: 0 auto;
@@ -173,7 +162,6 @@
       text-decoration: none;
     }
 
-    /* Контейнер статьи */
     .article-container {
       max-width: 800px;
       margin: 0 auto;
@@ -218,14 +206,40 @@
       flex-wrap: wrap;
     }
 
+    /* Главная картинка статьи */
     .article-image {
       width: 100%;
       height: auto;
+      display: block;
+      max-width: 100%;
       border-radius: 16px;
       margin-bottom: 40px;
-      object-fit: cover;
       box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Второстепенная картинка внутри текста */
+    figure.article-image-inline {
+      width: 100%;
+      margin: 40px 0;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    figure.article-image-inline img {
+      width: 100%;
+      height: auto;
       display: block;
+      max-width: 100%;
+      margin: 0;
+    }
+
+    figure.article-image-inline figcaption {
+      text-align: center;
+      font-size: 0.9em;
+      color: var(--text-dim);
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.05);
     }
 
     .article-body p {
@@ -296,7 +310,6 @@
       color: #fff;
     }
 
-    /* Footer */
     .footer {
       max-width: 800px;
       margin: 0 auto;
@@ -321,7 +334,6 @@
       color: #fff;
     }
 
-    /* Адаптив */
     @media (max-width: 768px) {
       .nav { display: none; }
       .burger { display: block; }
@@ -350,7 +362,6 @@
         <span class="burger-line"></span>
       </button>
 
-      <!-- Перемещено ВНУТРЬ header-inner -->
       <div class="mobile-menu" id="mobileMenu">
         <a href="../index.html">Все</a>
         <a href="../smartfony.html">Смартфоны</a>
@@ -364,23 +375,11 @@
     </div>
   </header>
 
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="../index.html">Все</a>
-    <a href="../smartfony.html">Смартфоны</a>
-    <a href="../pcgames.html">ПК Игры</a>
-    <a href="../zhelezo.html">Железо</a>
-    <a href="../gadzhety.html">Гаджеты</a>
-    <a href="../soft.html">Софт</a>
-    <a href="../tehnologii.html">Технологии</a>
-    <a href="../sluhi.html">Слухи</a>
-  </div>
-
   <section class="section">
-    <!-- Хлебные крошки -->
     <div class="breadcrumbs">
       <a href="../index.html">Главная</a> / 
       <a href="../pcgames.html">ПК Игры</a> / 
-      <span style="color:#fff;">Silent Hill: Townfall</span>
+      <span style="color:#fff;">Shure MV6 Gen 2</span>
     </div>
 
     <article class="article-container">
@@ -393,34 +392,29 @@
         <span>👤 Дмитрий Мусиенко</span>
       </div>
 
-      <!-- ИСПРАВЛЕНО: Абсолютный путь к картинке -->
+      <!-- ГЛАВНОЕ ФОТО СТАТЬИ (после даты и автора) -->
       <img src="https://cybernews-ru.github.io/img/IMG_20261001_065310.jpg" 
-           alt="Микрофон для стримов" 
+           alt="Микрофон для стримов Shure MV6 Gen 2" 
            class="article-image">
 
       <div class="article-body">
-
         <p>Ты вечно мучаешься с фоном: то вентилятор гудит, то сосед стучит, то сам вдруг кричишь в микрофон — и всё портит. У Shure теперь есть ответ: MV6 Gen 2. Это как взять звукорежиссёра и засунуть его в компактный корпус — и он сам сгладит перепады громкости, уберёт шум и подстроится под тебя.</p>
         
         <p>Главное тут — больше контроля без лишних нервов. Есть регулируемый Auto Level: он выравнивает звук, если ты шепчешь или орёшь — будто кто-то тихо подкручивает ручку. Система шумоподавления теперь тоже настраивается: можно чуть-чуть приглушить клавиатуру или почти вырезать соседей. Сверху — пятиполосный эквалайзер, а под ним готовые режимы Dark, Natural и Bright: хочешь — бери готовый, хочешь — докрути сам.</p>
         
-        <!-- ВОТ СЮДА ВСТАВЛЯЕМ КАРТИНКУ -->
-  <figure class="article-image">
-    <!-- ВАЖНО: Добавлен атрибут loading="lazy" для скорости и alt с описанием -->
-    <img src="../img/IMG_20261001_065327.jpg" 
-         alt="Микрофон Shure MV6 Gen 2 на рабочем столе рядом с ПК" 
-         loading="lazy">
-    <figcaption>Микрофон для стримов Shure MV6 Gen 2</figcaption>
-  </figure>
-  <!-- ----------------------------------- -->
+        <!-- ВТОРОСТЕПЕННОЕ ФОТО ВНУТРИ ТЕКСТА -->
+        <figure class="article-image-inline">
+          <img src="https://cybernews-ru.github.io/img/IMG_20261001_065327.jpg" 
+               alt="Микрофон Shure MV6 Gen 2 на рабочем столе рядом с ПК" 
+               loading="lazy">
+          <figcaption>Микрофон для стримов Shure MV6 Gen 2</figcaption>
+        </figure>
 
         <p>Ещё добавили виртуальный поп‑фильтр, три пресета (речь, пение, инструменты) и кнопку Mute с цветным индикатором — чтобы ты сразу видел, когда тебя слышно. Работает с ПК, Mac и Android по USB‑C, для iPhone и iPad есть сертификация MFi. Настройки живут в приложении MOTIV и сохраняются прямо в микрофоне — переносишь между устройствами, а звук остаётся прежним. В комплекте подставка с изоляцией, кабель на два метра и резьба 5/8 дюйма — можно снять и поставить на стойку. Разъём 3,5 мм даёт слышать себя и игру без задержки.</p>
 
         <p>Цена — 169 долларов (это больше 14 000 рублей), ещё бывает за 159 фунтов или 150 евро. Уже в продаже на сайте Shure и у ритейлеров.</p>
         
-        <i>Кстати, теперь есть и белая версия — раньше её не было.</i>
-        
-        
+        <p><i>Кстати, теперь есть и белая версия — раньше её не было.</i></p>
       </div>
 
       <div class="share-buttons">
