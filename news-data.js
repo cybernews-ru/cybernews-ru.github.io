@@ -8,7 +8,7 @@ const news = [
   cat:'Железо', 
   title:'Розыгрыш RTX 5080 в стиле CONTROL Resonant', 
   excerpt:'Кастомная GeForce RTX 5080 от NVIDIA: оформление в духе Remedy, стоимость около 1600 долларов',
-  img:'img/IMG_20261001_091052.jpg.webp',
+  img:'img/IMG_20261001_091052.jpg',
   date:'01 окт 2026', link:'news/rozigrish-videokarti-GeForce-RTX-5080.html'
   },
   {
