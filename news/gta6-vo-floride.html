@@ -4,31 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- Подключаем общие стили (НЕ ТРОГАТЬ) -->
-  <link rel="stylesheet" href="style.css">
+  <!-- УБРАЛИ ссылку на style.css, чтобы избежать конфликтов путей на GitHub Pages -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
 
-  <!-- ================= ЗОНА 1: SEO ================= -->
-  <!-- 1.1 — Заголовок вкладки браузера + главный ключ -->
   <title>GTA 6 не получит Disney World и SeaWorld</title>
-  
-  <!-- 1.2 — Описание для поиска (до 160 символов) -->
   <meta name="description" content="Rockstar решила, что не всё из Флориды влезет в игру. Зато обещает настоящий флоридский дух.">
-  <meta name="keywords" content="GTA 6, Пк игры, Игры на консоли, Rockstar games">
-  
-  <!-- 1.3 — Canonical: прямая ссылка на эту статью -->
-  <link rel="canonical" href="https://cybernews-ru.github.io/news/ИМЯ-ФАЙЛА.html">
+  <meta name="keywords" content="пк игры, gta6, игры на консоли">
+  <link rel="canonical" href="https://cybernews-ru.github.io/news/gta6-vo-floride.html">
 
-  <!-- 1.4 — Open Graph: заголовок, описание, ссылка, картинка для соцсетей -->
+  <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:title" content="GTA 6 не получит Disney World и SeaWorld">
   <meta property="og:description" content="Rockstar решила, что не всё из Флориды влезет в игру. Зато обещает настоящий флоридский дух.">
-  <meta property="og:url" content="https://cybernews-ru.github.io/cybernews-ru/news/gta6-vo-floride.html">
+  <meta property="og:url" content="https://cybernews-ru.github.io/news/gta6-vo-floride.html">
+  <!-- ИСПРАВЛЕНО: Абсолютный путь к картинке -->
   <meta property="og:image" content="https://cybernews-ru.github.io/img/IMG_20261001_053413.jpg">
-  <meta property="article:published_time" content="2026-10-01T05:40:15+03:00">
+  <meta property="article:published_time" content="2026-10-01T05:50:15+03:00">
   <meta property="article:author" content="Cyber">
   <meta property="article:section" content="ПК Игры">
 
-  <!-- 1.6 — Schema.org: микроразметка для Яндекс/Google -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -40,154 +34,398 @@
         "width": 1200,
         "height": 630
       },
-      "datePublished": "2026-10-01T05:40:15+03:00",
+      "datePublished": "2026-10-01T05:50:15+03:00",
       "author": {"@type": "Person", "name": "Cyber"},
       "publisher": {
         "@type": "Organization",
         "name": "Cyber",
-        "logo": {"@type": "ImageObject", "url": "../img/logo.png"}
+        "logo": {"@type": "ImageObject", "url": "https://cybernews-ru.github.io/img/logo.png"}
       },
-      "description": "Rockstar решила, что не всё из Флориды влезет в игру."
+      "description": "Rockstar решила, что не всё из Флориды влезет в игру. Зато обещает настоящий флоридский дух."
     }
   </script>
 
-  <!-- ================= ЗОНА 2: СТИЛИ СТАТЬИ (НЕ ТРОГАТЬ) ================= -->
+  <!-- ================= КРИТИЧЕСКИЕ СТИЛИ (ВНУТРЕННИЕ) ================= -->
   <style>
-    .article-container { max-width: 800px; margin: 0 auto; padding: 24px; }
-    .article-title { font-weight: 900; font-size: 25px; line-height: 1.2; color: #fff; margin-bottom: 12px; }
-    .article-subtitle { font-weight: 400; font-size: 18px; color: rgba(255,255,255,0.8); margin-bottom: 24px; }
-    .meta-row { display: flex; gap: 16px; align-items: center; color: var(--text-dim, #8a8a92); font-size: 14px; margin-bottom: 32px; flex-wrap: wrap; }
-    .article-image { width: 100%; height: auto; border-radius: 12px; margin-bottom: 28px; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
-    .article-body p { font-size: 17px; line-height: 1.7; color: var(--text, #e8e8ec); margin-bottom: 20px; }
-    .article-body h2 { font-size: 26px; font-weight: 800; color: #fff; margin: 36px 0 20px; border-left: 4px solid var(--accent, #2d7eff); padding-left: 16px; }
-    .article-body h3 { font-size: 20px; font-weight: 700; color: #fff; margin: 28px 0 16px; }
-    .article-body blockquote { border-left: 4px solid var(--accent, #2d7eff); padding: 16px 20px; margin: 24px 0; background: rgba(45,126,255,0.08); border-radius: 0 8px 8px 0; font-style: italic; color: rgba(255,255,255,0.85); }
-    .article-body ul { margin-bottom: 20px; padding-left: 0; list-style: none; }
-    .article-body ul li { font-size: 17px; line-height: 1.7; color: var(--text, #e8e8ec); margin-bottom: 10px; padding-left: 24px; position: relative; }
-    .article-body ul li::before { content: "▸"; color: var(--accent, #2d7eff); position: absolute; left: 0; font-weight: 700; }
-    .specs-table { width: 100%; border-collapse: collapse; margin-bottom: 24px; }
-    .specs-table th { background: rgba(45,126,255,0.15); color: #fff; font-weight: 700; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--accent, #2d7eff); font-size: 15px; }
-    .specs-table td { padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); color: var(--text, #e8e8ec); font-size: 15px; }
-    .specs-table tr:hover td { background: rgba(255,255,255,0.03); }
-    .summary-block { margin: 36px 0 28px; padding: 24px; background: rgba(45,126,255,0.06); border-radius: 12px; border: 1px solid rgba(45,126,255,0.15); }
-    .summary-block h3 { margin-bottom: 16px; font-size: 20px; font-weight: 800; color: #fff; }
-    .cta-block { margin: 28px 0; padding: 20px 24px; background: rgba(255,255,255,0.04); border-radius: 12px; text-align: center; }
-    .cta-block p { font-size: 17px; color: var(--text, #e8e8ec); margin: 0; }
-    .share-buttons { display: flex; gap: 12px; margin-top: 32px; flex-wrap: wrap; }
-    .share-btn { padding: 10px 18px; border-radius: 8px; font-weight: 700; text-align: center; transition: 0.2s; cursor: pointer; color: #fff; text-decoration: none; font-size: 14px; }
-    .share-btn:hover { opacity: 0.85; transform: translateY(-2px); }
-    .share-telegram { background: #2481cc; }
+    /* Базовые настройки страницы (чтобы не было белого фона) */
+    :root {
+      --bg-color: #0f0f11;
+      --text-color: #e8e8ec;
+      --text-dim: #8a8a92;
+      --accent: #2d7eff;
+      --header-bg: rgba(15, 15, 17, 0.95);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Стили для шапки (Header) */
+    .header {
+      background-color: var(--header-bg);
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .header-inner {
+  position: relative; /* Важно: чтобы mobile-menu позиционировался от этого блока */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+    .logo {
+      color: #fff;
+      font-weight: 900;
+      font-size: 24px;
+      text-decoration: none;
+      letter-spacing: -1px;
+    }
+
+    .logo span {
+      color: var(--accent);
+    }
+
+    .nav a {
+      color: var(--text-dim);
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav a:hover {
+      color: #fff;
+    }
+
+    .burger {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+    }
+
+    .burger-line {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: #fff;
+      margin: 4px 0;
+    }
+
+    /* Мобильное меню */
+    .mobile-menu {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background: var(--bg-color);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  position: absolute;
+  top: 100%;            /* Сразу под header-inner */
+  left: 0;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  z-index: 999;
+  animation: fadeIn 0.3s ease-out;
+}
+
+    .mobile-menu a {
+      color: var(--text-color);
+      text-decoration: none;
+      font-size: 18px;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .mobile-menu a:hover {
+      color: var(--accent);
+    }
+
+    .mobile-menu.open {
+  display: flex;
+}
+
+    /* Хлебные крошки */
+    .breadcrumbs {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px 20px 0;
+      color: var(--text-dim);
+      font-size: 13px;
+    }
+
+    .breadcrumbs a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* Контейнер статьи */
+    .article-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .article-badge {
+      background: rgba(45, 126, 255, 0.9);
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 12px;
+      display: inline-block;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .article-title {
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 1.1;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+
+    .article-subtitle {
+      font-weight: 400;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 32px;
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      color: var(--text-dim);
+      font-size: 14px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .article-image {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      margin-bottom: 40px;
+      object-fit: cover;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      display: block;
+    }
+
+    .article-body p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--text-color);
+      margin-bottom: 24px;
+    }
+
+    .article-body h2 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #fff;
+      margin: 48px 0 24px;
+      border-left: 4px solid var(--accent);
+      padding-left: 16px;
+    }
+
+    .article-body blockquote {
+      border-left: 4px solid var(--accent);
+      padding: 20px 24px;
+      margin: 32px 0;
+      background: rgba(45, 126, 255, 0.06);
+      border-radius: 0 12px 12px 0;
+      font-style: italic;
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 16px;
+    }
+
+    .share-buttons {
+      margin: 40px 0;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .share-btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .share-btn:hover {
+      opacity: 0.9;
+      transform: translateY(-2px);
+    }
+
     .share-vk { background: #0077FF; }
-    .back-link { display: inline-block; margin-top: 48px; color: var(--text-dim, #8a8a92); text-decoration: none; transition: color 0.2s; }
-    .back-link:hover { color: #fff; }
+    .share-telegram { background: #2481cc; }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      color: var(--text-dim);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover {
+      color: #fff;
+    }
+
+    /* Footer */
+    .footer {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px 30px;
+      color: var(--text-dim);
+      font-size: 14px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      text-align: center;
+    }
+
+    .footer-links {
+      margin-bottom: 20px;
+    }
+
+    .footer-links a {
+      color: var(--text-dim);
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    /* Адаптив */
+    @media (max-width: 768px) {
+      .nav { display: none; }
+      .burger { display: block; }
+      .article-title { font-size: 28px; }
+    }
   </style>
 </head>
 <body>
 
-  <!-- ================= ЗОНА 3: ШАПКА И МЕНЮ (НЕ ТРОГАТЬ) ================= -->
-  <header class="header">
+<header class="header">
     <div class="header-inner">
-      <a href="index.html" class="logo">CY<span>BER</span></a>
+      <a href="../index.html" class="logo">CY<span>BER</span></a>
       <nav class="nav">
-        <a href="index.html">Все</a>
-        <a href="smartfony.html">Смартфоны</a>
-        <a href="pcgames.html">ПК Игры</a>
-        <a href="zhelezo.html">Железо</a>
-        <a href="gadzhety.html">Гаджеты</a>
-        <a href="soft.html">Софт</a>
-        <a href="tehnologii.html">Технологии</a>
-        <a href="sluhi.html">Слухи</a>
+        <a href="../index.html">Все</a>
+        <a href="../smartfony.html">Смартфоны</a>
+        <a href="../pcgames.html">ПК Игры</a>
+        <a href="../zhelezo.html">Железо</a>
+        <a href="../gadzhety.html">Гаджеты</a>
+        <a href="../soft.html">Софт</a>
+        <a href="../tehnologii.html">Технологии</a>
+        <a href="../sluhi.html">Слухи</a>
       </nav>
       <button class="burger" id="burger" aria-label="Меню">
         <span class="burger-line"></span>
         <span class="burger-line"></span>
         <span class="burger-line"></span>
       </button>
+
+      <!-- Перемещено ВНУТРЬ header-inner -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="../index.html">Все</a>
+        <a href="../smartfony.html">Смартфоны</a>
+        <a href="../pcgames.html">ПК Игры</a>
+        <a href="../zhelezo.html">Железо</a>
+        <a href="../gadzhety.html">Гаджеты</a>
+        <a href="../soft.html">Софт</a>
+        <a href="../tehnologii.html">Технологии</a>
+        <a href="../sluhi.html">Слухи</a>
+      </div>
     </div>
   </header>
 
   <div class="mobile-menu" id="mobileMenu">
-    <a href="index.html">Все</a>
-    <a href="smartfony.html">Смартфоны</a>
-    <a href="pcgames.html">ПК Игры</a>
-    <a href="zhelezo.html">Железо</a>
-    <a href="gadzhety.html">Гаджеты</a>
-    <a href="soft.html">Софт</a>
-    <a href="tehnologii.html">Технологии</a>
-    <a href="sluhi.html">Слухи</a>
+    <a href="../index.html">Все</a>
+    <a href="../smartfony.html">Смартфоны</a>
+    <a href="../pcgames.html">ПК Игры</a>
+    <a href="../zhelezo.html">Железо</a>
+    <a href="../gadzhety.html">Гаджеты</a>
+    <a href="../soft.html">Софт</a>
+    <a href="../tehnologii.html">Технологии</a>
+    <a href="../sluhi.html">Слухи</a>
   </div>
 
-  <!-- ================= ЗОНА 4: ХЛЕБНЫЕ КРОШКИ ================= -->
-  <!-- Меняем только название категории и заголовок статьи -->
   <section class="section">
-    <div style="max-width:800px; margin:0 auto; color:var(--text-dim); font-size:13px; margin-bottom:24px;">
-      <a href="index.html" style="color:var(--accent); text-decoration:none;">Главная</a>
-      <span style="margin:0 6px;">/</span>
-      <a href="ПК Игры" style="color:var(--accent); text-decoration:none;">ПК Игры</a>
-      <span style="margin:0 6px;">/</span>
+    <!-- Хлебные крошки -->
+    <div class="breadcrumbs">
+      <a href="../index.html">Главная</a> / 
+      <a href="../pcgames.html">ПК Игры</a> / 
       <span style="color:#fff;">GTA 6 не получит Disney World и SeaWorld</span>
     </div>
 
-    <!-- ================= ЗОНА 5: КОНТЕНТ СТАТЬИ ================= -->
     <article class="article-container">
-
-      <!-- 5.1 — Бейдж категории (текст внутри span) -->
-      <span class="article-badge" style="background:rgba(45,126,255,.9); color:#fff; padding:6px 12px; border-radius:6px; font-weight:700; font-size:12px; display:inline-block; margin-bottom:16px;">ПК Игры</span>
-
-      <!-- 5.2 — Заголовок (H1) и подзаголовок-лид -->
+      <span class="article-badge">ПК Игры</span>
       <h1 class="article-title">GTA 6 не получит Disney World и SeaWorld</h1>
       <p class="article-subtitle">Rockstar решила, что не всё из Флориды влезет в игру. Зато обещает настоящий флоридский дух.</p>
 
-      <!-- 5.3 — Дата и автор -->
       <div class="meta-row">
         <span>📅 01 октября 2026</span>
         <span>👤 Дмитрий Мусиенко</span>
       </div>
 
-      <!-- 5.4 — Главная картинка статьи -->
-      <!-- Путь: ../img/ означает «папка img в корне сайта» (статья лежит в папке news, поэтому ../) -->
-      <img src="../img/IMG_20261001_053413.jpg" 
-           alt="GTA 6 не получит Disney World и SeaWorld" 
+      <!-- ИСПРАВЛЕНО: Абсолютный путь к картинке -->
+      <img src="https://cybernews-ru.github.io/img/IMG_20261001_053413.jpg" 
+           alt="Silent Hill: Townfall монстр Бремя" 
            class="article-image">
 
-      <!-- 5.5 — ТЕКСТ СТАТЬИ -->
-      <!-- Структура: <p> — абзац, <h2> — подзаголовок блока, <blockquote> — цитата, <ul><li> — список -->
       <div class="article-body">
-        
-        <!-- Вступительный абзац — самое важное, цепляем читателя -->
+        <h2>GTA 6 не получит Disney World и SeaWorld</h2>
         <p>Старший вице-президент Rockstar Пол Макферсон в разговоре с Game Informer объяснил: студии приходится выбирать, какие локации попадут в GTA 6, а какие — нет. В игру не войдут все крупные аттракционы вроде Disney World, SeaWorld и Universal Studios. Список сокращают ради сюжета и геймдизайна.</p>
-
-       
-       <p>Но это не значит, что Флорида получится куцой. Команда отсмотрела всё — от ландшафтов и скальных формаций до растительности и достопримечательностей — и оставила то, что лучше всего передаёт атмосферу штата. Как говорит Макферсон, может, конкретных мест не будет, но всё, что осталось, нацелено на полный флоридский опыт.</p>
-       
-      <p>Зато зоопарк в игре будет. Животные вообще станут важной частью проекта — больше 170 видов, включая редкие и легендарные породы, которых можно изучать. Видимо, крокодилы и фламинго точно в деле.</p>
-     
-     <p>Кстати, для достоверности Rockstar отправила команду прямо во Флориду. Исследовали регион лично — включая стриптиз-клубы и ночные заведения. Ну, ради реализма же.</p>
+        
+        <p>Но это не значит, что Флорида получится куцой. Команда отсмотрела всё — от ландшафтов и скальных формаций до растительности и достопримечательностей — и оставила то, что лучше всего передаёт атмосферу штата. Как говорит Макферсон, может, конкретных мест не будет, но всё, что осталось, нацелено на полный флоридский опыт.</p>
+        
+        <p>Зато зоопарк в игре будет. Животные вообще станут важной частью проекта — больше 170 видов, включая редкие и легендарные породы, которых можно изучать. Видимо, крокодилы и фламинго точно в деле.</p>
+        
+        <p>Кстати, для достоверности Rockstar отправила команду прямо во Флориду. Исследовали регион лично — включая стриптиз-клубы и ночные заведения. Ну, ради реализма же.</p>
       </div>
 
-      <!-- 5.6 — Кнопки «Поделиться» -->
-      <!-- Замени # на реальные ссылки (см. ниже) -->
       <div class="share-buttons">
         <a href="https://vk.ru/cyber_news_byte" class="share-btn share-vk" target="_blank">ВКонтакте</a>
       </div>
 
-      <!-- 5.7 — Ссылка «Назад» -->
-      <!-- Замени КАТЕГОРИЯ.html на нужную категорию -->
       <a href="../pcgames.html" class="back-link">← НАЗАД К КАТЕГОРИИ</a>
-
     </article>
   </section>
 
-  <!-- ================= ЗОНА 6: ПОДВАЛ (НЕ ТРОГАТЬ) ================= -->
   <footer class="footer">
     <div class="footer-links">
-      <a href="../https://cybernews-ru.github.io/index.html">Главная</a>
+      <a href="../index.html">Главная</a>
+      <a href="../about.html">О проекте</a>
       <a href="../contacts.html">Контакты</a>
     </div>
     <p>&copy; 2026 Cyber News. Все права защищены.</p>
   </footer>
 
-  <!-- ================= ЗОНА 7: СКРИПТ МЕНЮ (НЕ ТРОГАТЬ) ================= -->
   <script>
     const burger = document.getElementById('burger');
     const mobileMenu = document.getElementById('mobileMenu');
