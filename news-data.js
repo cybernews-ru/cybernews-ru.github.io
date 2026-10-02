@@ -1,5 +1,13 @@
 const news = [
   {
+  cat:'Компьютеры', 
+  title:'Как освободить 65 гигабайт на диске с Windows', 
+  excerpt:'Редактор MakeUseOf Панкил Шах собрал чек-лист необязательных функций Windows, отключение которых возвращает десятки гигабайт',
+  img:'img/AQAKggxuhq17Wr0gJxG2t44rrNc2qJXRttIPkgZLS7YVJH5Z-rMnAaiZDP4XaO-MYfi6tOgmuhvOYohv_haT7GYoibw.webp',
+  date:'02 окт 2026', 
+  link:'news/osvobodit-65-gb-na-diske-windows-otklyuchenie-neobiazatelnykh-funktsii.html'
+  },
+  {
   cat:'Игры', 
   title:'Ace Combat 8: Wings of Theve — первая часть за семь лет', 
   excerpt:'Воздушные бои на Unreal Engine 5, мир Strangereal, кроссплей и мультиплеер на 100 игроков на PS5, Xbox и ПК',
