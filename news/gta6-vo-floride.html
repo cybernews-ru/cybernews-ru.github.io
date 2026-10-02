@@ -21,7 +21,7 @@
   <meta property="og:image" content="https://cybernews-ru.github.io/img/IMG_20261001_053413.jpg">
   <meta property="article:published_time" content="2026-10-01T05:50:15+03:00">
   <meta property="article:author" content="Cyber">
-  <meta property="article:section" content="ПК Игры">
+  <meta property="article:section" content="Игры">
 
   <script type="application/ld+json">
     {
@@ -76,14 +76,14 @@
     }
 
     .header-inner {
-  position: relative; /* Важно: чтобы mobile-menu позиционировался от этого блока */
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
     .logo {
       color: #fff;
@@ -128,20 +128,20 @@
 
     /* Мобильное меню */
     .mobile-menu {
-  display: none;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-  background: var(--bg-color);
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-  position: absolute;
-  top: 100%;            /* Сразу под header-inner */
-  left: 0;
-  width: 100%;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  z-index: 999;
-  animation: fadeIn 0.3s ease-out;
-}
+      display: none;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      background: var(--bg-color);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      z-index: 999;
+      animation: fadeIn 0.3s ease-out;
+    }
 
     .mobile-menu a {
       color: var(--text-color);
@@ -156,8 +156,8 @@
     }
 
     .mobile-menu.open {
-  display: flex;
-}
+      display: flex;
+    }
 
     /* Хлебные крошки */
     .breadcrumbs {
@@ -337,7 +337,7 @@
       <nav class="nav">
         <a href="../index.html">Все</a>
         <a href="../smartfony.html">Смартфоны</a>
-        <a href="../pcgames.html">ПК Игры</a>
+        <a href="../igri.html">Игры</a>
         <a href="../zhelezo.html">Железо</a>
         <a href="../gadzhety.html">Гаджеты</a>
         <a href="../soft.html">Софт</a>
@@ -350,11 +350,11 @@
         <span class="burger-line"></span>
       </button>
 
-      <!-- Перемещено ВНУТРЬ header-inner -->
+      <!-- Мобильное меню ВНУТРИ header-inner -->
       <div class="mobile-menu" id="mobileMenu">
         <a href="../index.html">Все</a>
         <a href="../smartfony.html">Смартфоны</a>
-        <a href="../pcgames.html">ПК Игры</a>
+        <a href="../igri.html">Игры</a>
         <a href="../zhelezo.html">Железо</a>
         <a href="../gadzhety.html">Гаджеты</a>
         <a href="../soft.html">Софт</a>
@@ -364,27 +364,16 @@
     </div>
   </header>
 
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="../index.html">Все</a>
-    <a href="../smartfony.html">Смартфоны</a>
-    <a href="../pcgames.html">ПК Игры</a>
-    <a href="../zhelezo.html">Железо</a>
-    <a href="../gadzhety.html">Гаджеты</a>
-    <a href="../soft.html">Софт</a>
-    <a href="../tehnologii.html">Технологии</a>
-    <a href="../sluhi.html">Слухи</a>
-  </div>
-
   <section class="section">
     <!-- Хлебные крошки -->
     <div class="breadcrumbs">
       <a href="../index.html">Главная</a> / 
-      <a href="../pcgames.html">ПК Игры</a> / 
+      <a href="../igri.html">Игры</a> / 
       <span style="color:#fff;">GTA 6 не получит Disney World и SeaWorld</span>
     </div>
 
     <article class="article-container">
-      <span class="article-badge">ПК Игры</span>
+      <span class="article-badge">Игры</span>
       <h1 class="article-title">GTA 6 не получит Disney World и SeaWorld</h1>
       <p class="article-subtitle">Rockstar решила, что не всё из Флориды влезет в игру. Зато обещает настоящий флоридский дух.</p>
 
@@ -413,7 +402,7 @@
         <a href="https://vk.ru/cyber_news_byte" class="share-btn share-vk" target="_blank">ВКонтакте</a>
       </div>
 
-      <a href="../pcgames.html" class="back-link">← НАЗАД К КАТЕГОРИИ</a>
+      <a href="../igri.html" class="back-link">← НАЗАД К КАТЕГОРИИ</a>
     </article>
   </section>
 
