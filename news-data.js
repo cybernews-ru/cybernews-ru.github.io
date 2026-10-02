@@ -1,5 +1,13 @@
 const news = [
   {
+  cat:'Железо', 
+  title:'Montage Technology запустила в серию чип CK01P для DDR5-9200', 
+  excerpt:'Новый драйвер тактового сигнала разгоняет память DDR5 до 9200 МТ/с и борется с помехами на высоких частотах',
+  img:'img/media-5b21086727857551a9522a6d335cabd60a09f0227715d52dd4f73dd47521ab4b.png',
+  date:'02 окт 2026', 
+  link:'news/montage-technology-vypustila-chip-ck01p-dlia-ddr5-9200.html'
+  },
+  {
   cat:'Смартфоны', 
   title:'Samsung Galaxy стали медленно заряжаться после One UI 9.0', 
   excerpt:'Владельцы Galaxy S25 жалуются на замедление зарядки после обновления',
