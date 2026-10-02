@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const catLinks = {
         'all': 'index.html',
         'Смартфоны': 'smartfony.html',
-        'ПК': 'pc.html',
+        'Игры': 'games.html',
         'Железо': 'zhelezo.html',
         'Гаджеты': 'gadzhety.html',
         'Софт': 'soft.html',
