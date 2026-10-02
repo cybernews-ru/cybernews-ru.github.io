@@ -1,5 +1,13 @@
 const news = [
   {
+  cat:'Игры', 
+  title:'Ace Combat 8: Wings of Theve — первая часть за семь лет', 
+  excerpt:'Воздушные бои на Unreal Engine 5, мир Strangereal, кроссплей и мультиплеер на 100 игроков на PS5, Xbox и ПК',
+  img:'img/p49eO0obgGB6FDgZitEW-g.webp',
+  date:'02 окт 2026', 
+  link:'news/ace-combat-8-wings-of-theve-vyshla-na-ps5-xbox-i-pc.html'
+  },
+  {
   cat:'Железо', 
   title:'Montage Technology запустила в серию чип CK01P для DDR5-9200', 
   excerpt:'Новый драйвер тактового сигнала разгоняет память DDR5 до 9200 МТ/с и борется с помехами на высоких частотах',
