@@ -1,6 +1,14 @@
 const news = [
   {
   cat:'Смартфоны', 
+  title:'Samsung Galaxy стали медленно заряжаться после One UI 9.0', 
+  excerpt:'Владельцы Galaxy S25 жалуются на замедление зарядки после обновления',
+  img:'img/media-a73320316fc5917bbb50aa480c236f1eeffe077abce07e91579841d386c6e22b.png',
+  date:'02 окт 2026', 
+  link:'news/vladelcy-samsung-galaxy-zaluiutsia-na-zamedlenie-zariadki.html'
+  },
+  {
+  cat:'Смартфоны', 
   title:'Honor Magic 9 Lite+: 11 000 мАч, Snapdragon 6 Gen 5 и 108 Мп', 
   excerpt:'Глобальная версия Honor с батареей на 11 000 мАч, зарядкой 80 Вт и Android 16 засветилась в Google Play Console',
   img:'img/media-b4efae1ca8c3863df54837d208fbcdee735e7f163f95c88b56be9165628e4323.jpg',
