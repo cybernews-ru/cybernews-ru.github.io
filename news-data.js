@@ -1,8 +1,3 @@
-// ===== CYBER — ДАННЫЕ НОВОСТЕЙ =====
-// Добавляй новые новости сюда, в начало массива.
-// Сортировка по дате — автоматическая, порядок в массиве не важен.
-// Поле link — путь к HTML-файлу отдельной новости.
-
 const news = [
   {
   cat:'Смартфоны', 
@@ -29,7 +24,7 @@ const news = [
   link:'news/noviy-drayver-na-videokartu-nvidia.html'
   },
   {
-  cat:'ПК Игры', 
+  cat:'Игры', 
   title:'Krafton закрыла PUBG: Black Budget: extraction-шутер не выжил', 
   excerpt:'Студия не нашла направление для шутера, проект сворачивают после альфа-тестов',
   img:'img/8_6_5BZX_nEPMJRGe5Zl5w.jpeg.webp',
@@ -65,7 +60,7 @@ const news = [
   date:'01 окт 2026', link:'news/rozigrish-videokarti-GeForce-RTX-5080.html'
   },
   {
-  cat:'ПК Игры', 
+  cat:'Игры', 
   title:'The Witcher 3 Remastered: CDPR чинит HairWorks и DLSS', 
   excerpt:'Проблемы с производительностью в ПК-версии и Xbox Play Anywhere: хотфиксы уже в работе',
   img:'img/R_3zBW8V6I6w_ieHSzX_hQ.png.webp',
@@ -86,14 +81,14 @@ const news = [
   date:'01 окт 2026', link:'news/noviy-mikrofon-dla-strimerov.html'
   },
   {
-  cat:'ПК Игры', 
+  cat:'Игры', 
   title:'GTA 6 не получит Disney World и SeaWorld', 
   excerpt:'Rockstar решила, что не всё из Флориды влезет в игру. Зато обещает настоящий флоридский дух.',
   img:'img/IMG_20261001_053413.jpg',
   date:'01 окт 2026', link:'news/gta6-vo-floride.html'
   },
   {
-  cat:'ПК Игры', 
+  cat:'Игры', 
   title:'Silent Hill: Townfall упростит стелс с монстром Бремя', 
   excerpt:'Разработчики готовят патч после вала жалоб на непредсказуемый ИИ монстра',
   img:'img/fXKJecGB4611uJP7LLTS2w.png.webp',
