@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const cat = a.dataset.cat;
       const catLinks = {
-        'all': 'index.html',
+        'all': 'index.html', 'Компьютеры': 'pc.html',
         'Смартфоны': 'smartfony.html',
         'Игры': 'games.html',
         'Железо': 'zhelezo.html',
