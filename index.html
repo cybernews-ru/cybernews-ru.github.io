@@ -128,7 +128,7 @@
       function renderHero() {
         const sorted = sortByDate(news);
         const main = sorted[0];
-        const sideCats = ['Смартфоны', 'Гаджеты', 'ПК Игры'];
+        const sideCats = ['Смартфоны', 'Гаджеты', 'Игры'];
         const sideCards = sideCats
           .map(c => sorted.find(n => n.cat === c))
           .filter(Boolean)
