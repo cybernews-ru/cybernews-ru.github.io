@@ -5,7 +5,7 @@ const news = [
     excerpt:'Будущий портативный ПК от Valve получит чип AMD Gainsborough с графикой RDNA 3.5, что ограничивает его производительность в новинках.',
     img:'img/fit_930_519_false_crop_1280_720_0_0_q90_1299912_86d1bc77f64799a26247057cb.webp',
     date:'3 октября 2026, 14:51',
-    link:'news/steam-deck-2-budet-menshe-moshnosti-chem-ozhidali-html.html'
+    link:'news/steam-deck-2-budet-menshe-moshnosti-chem-ozhidali.html'
   },
   {
   cat:'Компьютеры', 
