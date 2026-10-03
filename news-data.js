@@ -1,5 +1,13 @@
 const news = [
   {
+    cat:'Игры',
+    title:'GTA 6 потребует свежую прошивку PS5 — на взломанных консолях не запустится',
+    excerpt:'Для запуска GTA 6 на PS5 нужна прошивка версии 14.10.00.00 или новее. Консоли с джейлбрейком на старых версиях игру не потянут.',
+    img:'img/K1giSvHbbdGadOQ7Is0XYA.png.webp',
+    date:'3 октября 2026, 17:26',
+    link:'news/gta-6-trebuet-proshivku-ps5-14-10-zapusk-na-vzlomannyh-konsolyah-nevozmozhen.html'
+  },
+  {
     cat:'Смартфоны',
     title:'iPhone 18 Pro Max теряет сеть — Apple советует обновиться или менять смартфон',
     excerpt:'Владельцы iPhone 18 Pro Max жалуются на полный сбой сотовой связи. Apple подтвердила проблему и выпустила iOS 27.0.1, но если уже сломалось — поможет только замена.',
