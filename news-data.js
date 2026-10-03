@@ -5,7 +5,7 @@ const news = [
   date: "3 октября 2026",
   img: "img/07ffvirKbJPO1iXG1x-8wA.jpeg.webp",
   excerpt: "Команда эмулятора PS5 SharpEmu выпустила новую версию проекта. SharpEmu v0.0.5-nexus включает патчи производительности для Demon’s Souls, Astro Bot, GTA V и других игр.",
-  link: "article.html?id=emulator-ps5-sharpemu-v0-0-5-nexus-vischel",
+  link: "article.html?id=emulator-ps5",
   content: `Обновление принесло множество исправлений и оптимизаций. Разработчики улучшили работу с памятью в Linux и других POSIX-системах, исправили ввод с геймпада, проверки стека CPU и инструкции SHA на процессорах без их поддержки. Изменения в шейдерах затронули Little Nightmares, Little Nightmares III, Astro Bot и Demon’s Souls, а также Vulkan и MoltenVK.
 
 Исправления получили Gran Turismo 7 и GTA V. Были добавлены новые заглушки AvPlayer, Razor CPU и сетевых функций, ускорен перевод шейдеров, улучшена работа stencil и появилась поддержка HDR-вывода. Также разработчики улучшили обработку игровых данных, файлов, вычислительных шейдеров и шрифтов.
