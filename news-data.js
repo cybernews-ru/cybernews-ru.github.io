@@ -1,6 +1,14 @@
 const news = [
   {
     cat:'Смартфоны',
+    title:'iPhone 18 Pro Max теряет сеть — Apple советует обновиться или менять смартфон',
+    excerpt:'Владельцы iPhone 18 Pro Max жалуются на полный сбой сотовой связи. Apple подтвердила проблему и выпустила iOS 27.0.1, но если уже сломалось — поможет только замена.',
+    img:'/img/media-f8879dbbd85ae69d694e19da26e422be92c2df3b4a3ee5268298a1f25d330026.webp',
+    date:'3 октября 2026, 16:11',
+    link:'news/iphone-18-pro-max-teryset-set-apple-predlagaet-zamenu.html'
+  },
+  {
+    cat:'Смартфоны',
     title:'Флагманы на Snapdragon 8 Elite Extreme Gen 6 перегреваются и вылетают',
     excerpt:'Владельцы новых смартфонов Honor и Xiaomi жалуются на сбои и перегрев процессора, который должен был стать эталоном мощности.',
     img:'img/media-b36c3b9941c9ad95d265bad21854e8910aa76264983f0d687c239aa7434f3dcf.jpg',
