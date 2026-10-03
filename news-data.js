@@ -1,6 +1,14 @@
 const news = [
   {
     cat:'Игры',
+    title:'Everspace 2: финальное обновление сломало игру — Rockfish признала провал',
+    excerpt:'Студия Rockfish Games выпустила последнее обновление для Everspace 2, но после него посыпались критические баги.',
+    img:'/img/BMF6dsmzI6n1oAD1esKt7w.png.webp',
+    date:'3 октября 2026, 18:24',
+    link:'news/everspace-2-finalnoe-obnovlenie-vyzvalo-potok-bagov-rockfish-priznala-oshibku.html'
+  },
+  {
+    cat:'Игры',
     title:'GTA 6 потребует свежую прошивку PS5 — на взломанных консолях не запустится',
     excerpt:'Для запуска GTA 6 на PS5 нужна прошивка версии 14.10.00.00 или новее. Консоли с джейлбрейком на старых версиях игру не потянут.',
     img:'img/K1giSvHbbdGadOQ7Is0XYA.png.webp',
