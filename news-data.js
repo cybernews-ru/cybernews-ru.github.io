@@ -1,5 +1,13 @@
 const news = [
   {
+    cat:'Смартфоны',
+    title:'Флагманы на Snapdragon 8 Elite Extreme Gen 6 перегреваются и вылетают',
+    excerpt:'Владельцы новых смартфонов Honor и Xiaomi жалуются на сбои и перегрев процессора, который должен был стать эталоном мощности.',
+    img:'img/media-b36c3b9941c9ad95d265bad21854e8910aa76264983f0d687c239aa7434f3dcf.jpg',
+    date:'3 октября 2026, 15:24',
+    link:'news/honor-magic-9-pro-max-i-xiaomi-18-pro-peregrevaiutsia-i-vyletaiut.html'
+  },
+  {
     cat:'Гаджеты',
     title:'Steam Deck2 не станет мощным монстром, судя по новым данным',
     excerpt:'Будущий портативный ПК от Valve получит чип AMD Gainsborough с графикой RDNA 3.5, что ограничивает его производительность в новинках.',
