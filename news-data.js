@@ -1,5 +1,13 @@
 const news = [
   {
+    cat:'Железо',
+    title:'Б/у Ryzen 7 5800X3D попал в бан Valorant из-за прошлого владельца',
+    excerpt:'Купил с рук процессор, а античит Riot Vanguard заблокировал доступ к Valorant — прежний владелец читерил. HWID-бан привязан к самому чипу через fTPM.',
+    img:'/img/RYZEN-5800X3D-VALORANT-BAN-HERO-1200x624.webp',
+    date:'3 октября 2026, 18:39',
+    link:'news/kuplennyi-ryzen-5800x3d-okazalsia-v-ban-po-hwid-valorant-ne-zapustitsia.html'
+  },
+  {
     cat:'Игры',
     title:'Everspace 2: финальное обновление сломало игру — Rockfish признала провал',
     excerpt:'Студия Rockfish Games выпустила последнее обновление для Everspace 2, но после него посыпались критические баги.',
