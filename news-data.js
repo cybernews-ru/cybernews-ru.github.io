@@ -1,5 +1,6 @@
 const news = [
   {
+  id: "emulator-ps5",
   title: "Эмулятор PS5 SharpEmu v0.0.5-nexus вышел с патчами производительности для Demon's Souls, Astro Bot, GTA V и других игр",
   cat: "Гаджеты",
   date: "3 октября 2026",
