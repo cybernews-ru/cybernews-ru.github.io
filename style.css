@@ -253,7 +253,7 @@ img { display: block; max-width: 100%; }
   content: ''; width: 4px; height: 24px;
   background: var(--accent); border-radius: 2px;
 }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
 .card {
   background: var(--bg-card); border-radius: var(--radius);
   overflow: hidden; border: 1px solid transparent;
@@ -498,7 +498,17 @@ img { display: block; max-width: 100%; }
   .article-meta { font-size: 13px; gap: 6px; }
 }
 
-.card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавность */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Очень лёгкая тень по умолчанию */
+.logo img {
+  display: block;
+  height: 40px;           /* высота в шапке (подбирается под высоту меню) */
+  width: auto;            /* сохраняет пропорции */
+  object-fit: contain;    /* чтобы не сплющивался */
+  max-width: 100%;        /* защита от вылезания */
+}
+
+/* Адаптив: на очень маленьких экранах делаем лого чуть меньше */
+@media (max-width: 480px) {
+  .logo img {
+    height: 34px;
+  }
 }
