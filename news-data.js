@@ -1,5 +1,13 @@
 const news = [
   {
+    cat:'Игры',
+    title:'Assassin\'s Creed Hexe — главная героиня, палач-отец и наследница рода Аудиторе',
+    excerpt:'Утечки с кастингов Assassin\'s Creed Hexe раскрыли персонажей и сюжет. Главная героиня — Аника Адлер, обвинённая в колдовстве, её отец — палач, а действие происходит в Германии XVI века.',
+    img:'/img/IMG_20261005_085217.jpg',
+    date:'5 октября 2026, 08:55',
+    link:'news/assassins-creed-hexe-novye-podrobnosti-personazhey-syuzheta-utechek-kastingov.html'
+  },
+  {
     cat:'Железо',
     title:'Б/у Ryzen 7 5800X3D попал в бан Valorant из-за прошлого владельца',
     excerpt:'Купил с рук процессор, а античит Riot Vanguard заблокировал доступ к Valorant — прежний владелец читерил. HWID-бан привязан к самому чипу через fTPM.',
